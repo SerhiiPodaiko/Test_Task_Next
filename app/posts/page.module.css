@@ -1,0 +1,42 @@
+.postDetail {
+    padding-top: 150px;
+    position: relative;
+    color: var(--red);
+}
+
+.postDetailLink {
+    padding: 8px 15px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    border: 1px solid var(--red);
+    color: var(--red);
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+
+.postDetailLink:hover {
+    transform: translateY(2px);
+}
+
+.postDetailContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid var(--red);
+    border-radius: 4px;
+    transition: .3s ease-in-out;
+}
+
+.postDetailContainer:hover {
+    transform: scale(0.99);
+}
+
+.postDetailTitle {
+    text-align: center;
+}
+
+.postDetailSubTitle::first-letter, .postDetailBody::first-letter {
+    text-transform: uppercase;
+}

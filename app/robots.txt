@@ -1,0 +1,4 @@
+userAgent: *,
+allow: /,
+disallow: '/posts/[id]'
+disallow: '/contacts'

@@ -1,0 +1,21 @@
+.contacts {
+    padding: 50px 0;
+    position: relative;
+    color: var(--red);
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactsLink {
+    color: var(--red);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.contactsLink:hover {
+    text-decoration: underline;
+}
