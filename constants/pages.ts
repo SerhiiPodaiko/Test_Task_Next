@@ -2,7 +2,7 @@ export const PAGE_SLUGS = {
     // Home
     home: '/',
 
-    // Post
+    // Posts
     post: '/posts',
 
     // Contacts

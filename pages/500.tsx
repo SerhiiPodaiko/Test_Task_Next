@@ -12,7 +12,7 @@ const ServerErrorPage = () => {
     })
 
     return (
-        <section style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <section style={{ height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <h1>500 - Server-side error occurred</h1>
         </section>
     )

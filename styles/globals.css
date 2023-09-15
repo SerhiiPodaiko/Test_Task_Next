@@ -16,8 +16,6 @@ html[data-theme='light'] {
     color: var(--red);
 }
 
-
-
 body {
     font-family: 'Roboto', 'Montserrat', 'Inter', sans-serif;
     font-size: 16px;
@@ -25,7 +23,6 @@ body {
     overflow-x: hidden;
     color: var(--white);
 }
-
 
 .app {
     display: flex;
